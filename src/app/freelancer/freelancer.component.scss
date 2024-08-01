@@ -1,0 +1,53 @@
+$cardColor: white;
+$cardPadding: 10px;
+$cardRadius: 20px;
+$cardWidth: 690px;
+
+.details{
+    background-color: $cardColor;
+    padding: $cardPadding;
+    border-radius: $cardRadius;
+    width: $cardWidth;
+    // margin: auto;
+}
+
+
+#fl-01,
+#fl-03 {
+
+    margin: auto;
+    margin-right: 15px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.freelancer {
+    // background-color: green;
+}
+.rec{
+    display: flex;
+    justify-content: right;
+}
+.recruit{
+    border: none;
+    font-family: "Outfit", sans-serif;
+    outline: none;
+    background: linear-gradient(to top right,#e66465, #9198e5);
+    color: white;
+    border-radius: 10px;
+}
+.recruit:hover{
+    box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(to top right,#f17070, #9fa7f3);
+}

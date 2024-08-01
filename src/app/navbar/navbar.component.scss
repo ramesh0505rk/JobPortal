@@ -24,7 +24,10 @@
 
 .nav-links a {
     text-decoration: none;
-
+    color: white;
+}
+.nav-links a:hover{
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
 }
 .hamburger{
     display: none;
@@ -34,7 +37,7 @@
 
 .logo {
     font-weight: 700;
-    color: purple;
+    color: white;
 }
 .sign-up,.sign-in{
     height: 30px;
@@ -45,8 +48,9 @@
     margin-right: 10px;
     color: purple;
     font-size: 15px;
+    background-color: white;
 }
 .sign-up:hover,.sign-in:hover{
-    background-color: rgb(96, 96, 238);
+    background: linear-gradient(to top right, #e66465, #c78ef7);
     color: white;
 }

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+.homeContent{
+    margin-top: 150px;
+}
 .home{
     display:flex;
     // background-color: yellow;
@@ -7,4 +10,72 @@
     align-items: center;
     font-family: "Outfit", sans-serif;
     text-align: center;
+    color: black;
+}
+.form{
+    justify-content: center;
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.role{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Outfit", sans-serif;
+    padding-left: 5px;
+}
+.role:focus{
+    outline: none;
+}
+
+.category{
+    height: 42px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Outfit", sans-serif;
+    outline: none;
+    padding: 0px 5px 0px 5px;
+    appearance: none;
+    background: url('./assets/downArrow.png') no-repeat right;
+    background-size: 12px;
+    background-color: white;
+    background-position: calc(100% - 5px);
+}
+.location{
+    height: 42px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Outfit", sans-serif;
+    outline: none;
+    appearance: none;
+    padding: 0px 5px 0px 5px;
+    background: url('./assets/downArrow.png') no-repeat right;
+    background-size: 12px;
+    background-color: white;
+    background-position: calc(100% - 5px);
+}
+.search{
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Outfit", sans-serif;
+    outline: none;
+    background: linear-gradient(to top right,#e66465, #9198e5);
+    color: white;
+    font-weight:800;
+    width: 250px;
+}
+.search:hover{
+    box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(to top right,#f17070, #9fa7f3);
+}
+.image-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 70px;
 }
